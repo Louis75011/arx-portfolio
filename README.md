@@ -6,6 +6,8 @@
 
 ## Français
 
+**Site en ligne :** <https://louis75011.github.io/arx-portfolio/>
+
 Portfolio public d'**Arx Systema** (Louis Rouanet, développeur web et intégrateur IA, L'Étang-la-Ville, Yvelines). Site statique, léger, mobile d'abord, aux couleurs d'Arx (bleu nuit `#1F3D7A`, jaune `#E8A820`).
 
 ### Contenu
@@ -44,6 +46,8 @@ Louis Rouanet — [arx-systema.fr](https://arx-systema.fr) — louis.rouanet@arx
 ---
 
 ## English
+
+**Live site:** <https://louis75011.github.io/arx-portfolio/>
 
 Public portfolio of **Arx Systema** (Louis Rouanet, web developer and AI integrator, L'Étang-la-Ville, near Paris). A lightweight, mobile-first static site in Arx colours (night blue `#1F3D7A`, yellow `#E8A820`).
 
