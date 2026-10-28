@@ -1,0 +1,143 @@
+{
+  "realisations": [
+    {
+      "id": "lelly-mosaique",
+      "titre": "Lelly Mosaïque",
+      "secteur": "Site vitrine d'artiste",
+      "besoin": "Donner une vitrine en ligne à Nelly Charamnac, mosaïste depuis 1980 : présenter l'artiste, ses créations et restaurations, et recevoir les demandes de contact.",
+      "travail": "Conception et développement complets : galerie interactive, présentation de l'artiste, page d'avis, formulaire de contact relié à Brevo, espace d'administration protégé, bannière de cookies et pages RGPD.",
+      "technologies": [
+        "Next.js 14",
+        "React 18",
+        "SCSS Modules",
+        "Brevo"
+      ],
+      "resultat": "Site en ligne depuis 2025, administrable, avec cadre légal en place (confidentialité, cookies, RGPD).",
+      "url": "https://lelly-mosaique.fr",
+      "url_mentions": "https://lelly-mosaique.fr/legal/confidentialite",
+      "libelle_mentions": "Pages légales",
+      "citation_mentions": "© Propulsé en 2025 - France - Site réalisé par M. Rouanet pour Arx Systema",
+      "source_citation": "Pied de page du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "au-paradis-ofer",
+      "titre": "Au Paradis O'Fer",
+      "secteur": "Médiation équine · Sains-lès-Fressin",
+      "besoin": "Présenter une structure de médiation équine : séances, chevaux, installations, gîte et animations, avec un moyen simple de prendre contact.",
+      "travail": "Application web et API : carrousel, fiches des chevaux, grille des séances, formulaire de contact protégé (anti-spam, validation), paiement en ligne Stripe pour le gîte, environnement de préproduction et déploiement automatisé.",
+      "technologies": [
+        "React 19",
+        "Vite",
+        "Node.js / Express",
+        "Stripe",
+        "Nginx / PM2",
+        "GitHub Actions"
+      ],
+      "resultat": "Site en ligne depuis 2025, avec une préproduction pour valider les changements avant publication.",
+      "url": "https://au-paradis-ofer.fr",
+      "url_mentions": "https://au-paradis-ofer.fr/mentions",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "© Depuis 2025 — Au Paradis O'Fer — Propulsé par Arx Systema",
+      "source_citation": "Pied de page du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "fondation-vuillard-roussel",
+      "titre": "Fondation Vuillard Roussel",
+      "secteur": "Fondation d'art · WordPress",
+      "besoin": "Un site pour une fondation qui honore l'œuvre des peintres Édouard Vuillard et Ker-Xavier Roussel : musée, ateliers, catalogues raisonnés, conférences, certificats et expertises.",
+      "travail": "Développement d'un thème WordPress sur mesure, structuration du contenu (œuvres, pages d'artistes, vidéos), formulaires, SEO et maintenance technique.",
+      "technologies": [
+        "WordPress",
+        "Thème sur mesure",
+        "Contact Form 7",
+        "SEOPress"
+      ],
+      "resultat": "Un site riche en contenu (œuvres, pages d'artistes, vidéos) que l'équipe de la fondation peut enrichir elle-même.",
+      "url": "https://fondationvuillardroussel.org",
+      "url_mentions": "https://fondationvuillardroussel.org/legal-infos",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "Site maintenu et développé par Louis Rouanet – Arx Systema | www.arx-systema.fr",
+      "source_citation": "Page « Informations légales »",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "ideopulse",
+      "titre": "IdeoPulse",
+      "secteur": "Vidéaste · WordPress",
+      "besoin": "Présenter les prestations d'un vidéaste (captation en studio ou sur événement, prise de vue aérienne par drone, post-production) et faciliter la prise de contact.",
+      "travail": "Conception technique du site, mise en place des pages Accueil, Prestations et Contact, gestion du consentement aux cookies et rédaction de la politique de confidentialité.",
+      "technologies": [
+        "WordPress",
+        "Thème Astra"
+      ],
+      "resultat": "Un site simple et lisible, en ligne, qui présente les trois métiers de l'activité et mène vers un contact direct.",
+      "url": "https://ideopulse.fr",
+      "url_mentions": "https://ideopulse.fr/privacy-policy/",
+      "libelle_mentions": "Politique de confidentialité",
+      "citation_mentions": "Éditeur du site et conception technique — Nom et prénoms : Louis Rouanet",
+      "source_citation": "Politique de confidentialité",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "auto-star",
+      "titre": "Auto-Star",
+      "secteur": "Garage Renault · Dacia · Antony",
+      "besoin": "Un site pour un garage indépendant : services d'entretien et de réparation, promotions, véhicules neufs et d'occasion, demande de devis et nouveau service de carte grise.",
+      "travail": "Conception et maintenance technique du site : structure des rubriques, formulaires de devis et de contact, mises à jour des offres.",
+      "technologies": [
+        "WordPress",
+        "Thème The7",
+        "Hébergement OVH"
+      ],
+      "resultat": "Un site de garage en ligne qui met en avant les services et permet de demander un devis ou de prendre rendez-vous.",
+      "url": "https://www.auto-star.fr",
+      "url_mentions": "https://www.auto-star.fr/mentions-legales",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "Conception et maintenance technique : Arx Systema (Louis Rouanet)",
+      "source_citation": "Mentions légales du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "arx-systema",
+      "titre": "arx-systema.fr",
+      "secteur": "Mon propre site",
+      "besoin": "Présenter mon activité de création et de refonte de sites dans les Yvelines, avec une offre claire (livraison en 7 jours dès 1 200 €) et un référencement local solide.",
+      "travail": "Site conçu de bout en bout : pages rendues côté serveur, JavaScript sans framework, multilingue, formulaire de contact et newsletter via Brevo, blog, déploiement continu sur VPS.",
+      "technologies": [
+        "Node.js",
+        "Express 5",
+        "HTML / CSS / JS",
+        "Brevo",
+        "Nginx / PM2",
+        "GitLab CI"
+      ],
+      "resultat": "Un site rapide, sans dépendance côté navigateur, déployé automatiquement avec contrôle de santé après chaque mise en ligne.",
+      "url": "https://arx-systema.fr",
+      "url_mentions": "https://arx-systema.fr/mentions-legales",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "Éditeur du site — Nom et prénoms : Louis Rouanet",
+      "source_citation": "Mentions légales du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    }
+  ]
+}

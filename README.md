@@ -21,11 +21,24 @@ HTML, CSS et JavaScript sans framework ni étape de build : une seule page, aucu
 
 ```
 index.html
+data/realisations.json   source unique des fiches (voir ci-dessous)
+scripts/render-realisations.mjs
 assets/
   css/style.css     styles, mobile d'abord
   js/main.js        menu mobile et année du pied de page
   img/favicon.svg
 ```
+
+### Source des fiches
+
+Les fiches de réalisations vivent dans `data/realisations.json`. `index.html` en est généré (entre les repères `realisations:start` et `realisations:end`), ce qui garde la page lisible sans JavaScript :
+
+```bash
+node scripts/render-realisations.mjs           # réécrit index.html
+node scripts/render-realisations.mjs --check   # échoue si index.html est en retard
+```
+
+Pour modifier une fiche : éditer le JSON, puis relancer le script. Champs : `id`, `titre`, `secteur`, `besoin`, `travail`, `technologies`, `resultat`, `url`, `url_mentions`, `libelle_mentions`, `citation_mentions`, `source_citation`, `captures` (`bureau`, `mobile`).
 
 ### Aperçu en local
 
@@ -62,11 +75,24 @@ Plain HTML, CSS and JavaScript with no framework and no build step: one page, no
 
 ```
 index.html
+data/realisations.json   single source of the case studies (see below)
+scripts/render-realisations.mjs
 assets/
   css/style.css     styles, mobile first
   js/main.js        mobile menu and footer year
   img/favicon.svg
 ```
+
+### Case study source
+
+Case studies live in `data/realisations.json`. `index.html` is generated from it (between the `realisations:start` and `realisations:end` markers), so the page stays readable without JavaScript:
+
+```bash
+node scripts/render-realisations.mjs           # rewrites index.html
+node scripts/render-realisations.mjs --check   # fails if index.html is out of date
+```
+
+To change a case study, edit the JSON and run the script again. Fields: `id`, `titre`, `secteur`, `besoin`, `travail`, `technologies`, `resultat`, `url`, `url_mentions`, `libelle_mentions`, `citation_mentions`, `source_citation`, `captures` (`bureau`, `mobile`).
 
 ### Local preview
 
