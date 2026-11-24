@@ -13,6 +13,7 @@ const pagePath = join(root, 'index.html');
 const START = '<!-- realisations:start -->';
 const END = '<!-- realisations:end -->';
 const INDENT = '          ';
+const LIEN = { site: 'Voir le site', outil: "Voir l'outil", demo: 'Voir la démonstration' };
 
 const esc = (value) =>
   String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -36,13 +37,20 @@ function renderCard(item) {
     `    <dt>Résultat</dt>`,
     `    <dd>${esc(item.resultat)}</dd>`,
     `  </dl>`,
-    `  <blockquote class="cite">`,
-    `    <p>« ${esc(item.citation_mentions)} »</p>`,
-    `    <footer>${esc(item.source_citation)}</footer>`,
-    `  </blockquote>`,
+    // ARX-27 : une démonstration n'a pas de client à citer.
+    ...(item.citation_mentions
+      ? [
+          `  <blockquote class="cite">`,
+          `    <p>« ${esc(item.citation_mentions)} »</p>`,
+          `    <footer>${esc(item.source_citation)}</footer>`,
+          `  </blockquote>`,
+        ]
+      : [`  <p class="cite">Démonstration conçue par Arx Systema, sans client.</p>`]),
     `  <p class="links">`,
-    `    <a href="${attr(item.url)}" rel="noopener">Voir le site</a>`,
-    `    <a href="${attr(item.url_mentions)}" rel="noopener">${esc(item.libelle_mentions)}</a>`,
+    `    <a href="${attr(item.url)}" rel="noopener">${LIEN[item.type] || LIEN.site}</a>`,
+    ...(item.citation_mentions
+      ? [`    <a href="${attr(item.url_mentions)}" rel="noopener">${esc(item.libelle_mentions)}</a>`]
+      : []),
     `  </p>`,
     `</article>`,
   ]
