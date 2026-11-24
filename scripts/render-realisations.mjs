@@ -13,7 +13,7 @@ const pagePath = join(root, 'index.html');
 const START = '<!-- realisations:start -->';
 const END = '<!-- realisations:end -->';
 const INDENT = '          ';
-const LIEN = { site: 'Voir le site', outil: "Voir l'outil", demo: 'Voir la démonstration', systeme: 'Voir le système' };
+const LIEN = { site: 'Voir le site', outil: "Voir l'outil", demo: 'Voir la démonstration', systeme: 'Voir le système', entreprise: 'Voir le site' };
 
 const esc = (value) =>
   String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -47,7 +47,9 @@ function renderCard(item) {
         ]
       : item.type === 'systeme'
         ? [`  <p class="cite">Système conçu et exploité par Arx Systema pour sa propre activité.</p>`]
-        : [`  <p class="cite">Démonstration conçue par Arx Systema, sans client.</p>`]),
+        : item.type === 'entreprise'
+          ? [`  <p class="cite">Projet mené en régie pour le propriétaire du produit, qui n’est pas nommé.</p>`]
+          : [`  <p class="cite">Démonstration conçue par Arx Systema, sans client.</p>`]),
     `  <p class="links">`,
     // ARX-27 (24/11/2026) : fiche Google ou outil privé, pas d'adresse publique, pas de lien.
     ...(item.url ? [`    <a href="${attr(item.url)}" rel="noopener">${LIEN[item.type] || LIEN.site}</a>`] : []),
