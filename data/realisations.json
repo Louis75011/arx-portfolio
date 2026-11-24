@@ -344,6 +344,36 @@
         "mobile": null
       },
       "type": "site"
+    },
+    {
+      "id": "confroom-owner",
+      "type": "outil",
+      "rubrique": "entreprise",
+      "titre": "ConfRoom Owner",
+      "secteur": "Gestion des contrats · application B2B",
+      "besoin": "Une solution d’administration des contrats (organisations, partenaires, clients) à rendre pleinement opérationnelle, en phase critique.",
+      "travail": "En renfort de l’équipe, en régie : envoi et suivi des conditions particulières de vente à signer, fiches d’organisation, intégration des systèmes de signature, de paiement, d’authentification et de contrôle.",
+      "technologies": [
+        "Application web",
+        "Signature électronique",
+        "Paiement en ligne",
+        "Authentification"
+      ],
+      "resultat": "Une solution d’administration rendue pleinement opérationnelle, ses applications intégrées de façon cohérente, selon le partenaire.",
+      "url_mentions": "https://arx-systema.fr/#temoignages",
+      "libelle_mentions": "Avis publiés sur le site",
+      "citation_mentions": "il a largement contribué à rendre notre solution d’administration pleinement opérative, intégrant de façon cohérente nos applications, depuis les systèmes de signature et de paiement jusqu’à ceux d’authentification et de contrôle.",
+      "source_citation": "Avis de Jean-Yves R., partenaire, recueilli par Arx Systema (décembre 2025)",
+      "pages": [
+        {
+          "cle": "ecrans",
+          "libelle": "écrans de connexion, de tableau de bord et de saisie"
+        }
+      ],
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
     }
   ]
 }
