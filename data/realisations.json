@@ -98,15 +98,40 @@
       ],
       "resultat": "Boutique suivie depuis 2021 ; avis client 5 étoiles en décembre 2023.",
       "url": "https://www.chokate.com",
-      "url_mentions": "https://www.chokate.com",
-      "libelle_mentions": "Boutique Chokaté",
-      "citation_mentions": "Il avait repris en urgence la suite d'un développeur parti en retraite, assurant la maintenance, l'entretien et la bonne marche du site, non sans célérité.",
-      "source_citation": "Avis client d'Aurélia W. (décembre 2023)",
+      "url_mentions": "https://arx-systema.fr/#temoignages",
+      "libelle_mentions": "Avis publiés sur le site",
+      "citation_mentions": "Toujours disponible, il a su mener à bien cette transition délicate et nécessaire.",
+      "source_citation": "Témoignage d'Aurélia W., recueilli par courriel (décembre 2023)",
       "captures": {
         "bureau": null,
         "mobile": null
       },
       "type": "site"
+    },
+    {
+      "id": "ecosysteme-arx",
+      "type": "systeme",
+      "titre": "Écosystème Arx",
+      "secteur": "Automatisations d’Arx Systema · en service chaque jour",
+      "besoin": "Faire tourner seul une activité de prestataire (courriels, relances, publications, demandes entrantes) sans y passer ses journées.",
+      "travail": "Un serveur n8n à moi, relié à Zoho Mail et à Telegram par des ponts ; arx-bot, qui accueille les demandes ; un audit de site automatisé ; la programmation des publications avec Metricool ; deux outils publiés en libre accès : hubspot-claude-property-card et mcp-relances-postgres.",
+      "technologies": [
+        "n8n",
+        "Zoho Mail",
+        "Telegram",
+        "Metricool",
+        "PostgreSQL",
+        "Claude"
+      ],
+      "resultat": "Du temps gagné chaque jour, sur un système fiable : plusieurs milliers d’exécutions, moins de 1 % d’échec.",
+      "url_mentions": "https://arx-systema.fr/mentions-legales",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "",
+      "source_citation": "",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
     },
     {
       "id": "lelly-mosaique",
@@ -149,8 +174,38 @@
       "url": "https://query-forge-ivory.vercel.app",
       "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
       "libelle_mentions": "Avis Google",
-      "citation_mentions": "Un outil que j'utilise désormais au quotidien. […] Arx Systema a livré quelque chose de vraiment utile - pas un gadget, un vrai outil de travail !",
+      "citation_mentions": "Un outil que j'utilise désormais au quotidien. […] pas un gadget, un vrai outil de travail !",
       "source_citation": "Avis Google de Julien S. (avril 2026)",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "maxime-couvreur-paysagiste",
+      "type": "site",
+      "titre": "Maxime J.",
+      "secteur": "Couvreur et paysagiste · site vitrine",
+      "besoin": "Un couvreur et paysagiste qui cherchait de l’aide pour faire le site web de son activité.",
+      "travail": "Un site pensé pour que ses clients le trouvent et le contactent facilement, adapté à son métier : une première version, puis la version actuelle.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vercel"
+      ],
+      "resultat": "Un site qui inspire confiance et qui est adapté à son métier, selon son avis Google.",
+      "url": "https://couverture-paysagisme-vendee.vercel.app",
+      "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
+      "libelle_mentions": "Avis Google",
+      "citation_mentions": "Ce que j’ai aimé, c’est l’écoute. […] Le résultat est à la hauteur : un site qui inspire confiance et qui est adapté à mon métier.",
+      "source_citation": "Avis Google de Maxime J. (mai 2026)",
+      "pages": [
+        {
+          "cle": "v1",
+          "url": "https://cordiste-paysagiste-maxime-j.vercel.app",
+          "libelle": "première version"
+        }
+      ],
       "captures": {
         "bureau": null,
         "mobile": null
@@ -203,6 +258,46 @@
       "type": "site"
     },
     {
+      "id": "perceval-graphiste",
+      "type": "outil",
+      "titre": "Perceval R.",
+      "secteur": "Graphiste indépendant · portfolio",
+      "besoin": "Graphiste indépendant, il voulait une solution simple et intuitive pour gérer son portfolio et ses refontes de prestations visuelles.",
+      "travail": "Un outil sans superflu, qui laisse la première place à ses réalisations sans paraître standardisé : une proposition, reprise selon ses remarques, puis l’intégration et la mise en ligne.",
+      "technologies": [
+        "Développement sur mesure"
+      ],
+      "resultat": "Un résultat propre, conforme à ses besoins de départ, livré plus vite qu’il ne l’attendait.",
+      "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
+      "libelle_mentions": "Avis Google",
+      "citation_mentions": "Le résultat final est propre et correspond tout à fait à mes besoins initiaux.",
+      "source_citation": "Avis Google de Perceval R. (avril 2026)",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "teddy-paysagiste",
+      "type": "site",
+      "titre": "Teddy D.",
+      "secteur": "Paysagiste · site WordPress refait",
+      "besoin": "Paysagiste auto-entrepreneur depuis quatre ans, il avait un site WordPress malheureusement peu visité.",
+      "travail": "Son site refait en quelques jours, plus beau qu’avant.",
+      "technologies": [
+        "WordPress"
+      ],
+      "resultat": "Il constate plus de visites depuis, selon son avis Google.",
+      "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
+      "libelle_mentions": "Avis Google",
+      "citation_mentions": "en quelques jours j'ai eu un site plus beau qu'avant et je constate plus de visites donc je suis très satisfait",
+      "source_citation": "Avis Google de Teddy D. (avril 2026)",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
       "id": "ideopulse",
       "titre": "IdeoPulse",
       "secteur": "Vidéaste · WordPress",
@@ -249,6 +344,36 @@
         "mobile": null
       },
       "type": "site"
+    },
+    {
+      "id": "confroom-owner",
+      "type": "outil",
+      "rubrique": "entreprise",
+      "titre": "ConfRoom Owner",
+      "secteur": "Gestion des contrats · application B2B",
+      "besoin": "Une solution d’administration des contrats (organisations, partenaires, clients) à rendre pleinement opérationnelle, en phase critique.",
+      "travail": "En renfort de l’équipe, en régie : envoi et suivi des conditions particulières de vente à signer, fiches d’organisation, intégration des systèmes de signature, de paiement, d’authentification et de contrôle.",
+      "technologies": [
+        "Application web",
+        "Signature électronique",
+        "Paiement en ligne",
+        "Authentification"
+      ],
+      "resultat": "Une solution d’administration rendue pleinement opérationnelle, ses applications intégrées de façon cohérente, selon le partenaire.",
+      "url_mentions": "https://arx-systema.fr/#temoignages",
+      "libelle_mentions": "Avis publiés sur le site",
+      "citation_mentions": "il a largement contribué à rendre notre solution d’administration pleinement opérative, intégrant de façon cohérente nos applications, depuis les systèmes de signature et de paiement jusqu’à ceux d’authentification et de contrôle.",
+      "source_citation": "Avis de Jean-Yves R., partenaire, recueilli par Arx Systema (décembre 2025)",
+      "pages": [
+        {
+          "cle": "ecrans",
+          "libelle": "écrans de connexion, de tableau de bord et de saisie"
+        }
+      ],
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
     }
   ]
 }
