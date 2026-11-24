@@ -1,6 +1,114 @@
 {
   "realisations": [
     {
+      "id": "lectures-ihs",
+      "type": "site",
+      "titre": "Lectures IHS",
+      "secteur": "Maison d'édition · vente directe en ligne",
+      "besoin": "Un éditeur dont les livres étaient vendus par d'autres plateformes, sans canal de vente direct ni relation suivie avec ses lecteurs.",
+      "travail": "Boutique sur mesure, paiement en ligne Stripe, catalogue que l'éditeur tient seul depuis une administration simple, courriels automatiques (confirmation de commande, avis de vente) et lettre d'information par Brevo.",
+      "technologies": [
+        "Site sur mesure",
+        "Sveltia CMS",
+        "Cloudflare Pages",
+        "Stripe",
+        "Brevo"
+      ],
+      "resultat": "Commandes, courriels et nouveautés partent sans intervention : l'éditeur ajoute un livre en quelques minutes. Mis en ligne en novembre 2026.",
+      "url": "https://lecturescatholiques.com",
+      "url_mentions": "https://lecturescatholiques.com/mentions-legales",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "Site réalisé par Arx Systema",
+      "source_citation": "Mentions légales du site",
+      "pages": [
+        {
+          "cle": "livre",
+          "url": "https://lecturescatholiques.com/livres/catechisme-catholique-populaire",
+          "libelle": "fiche d'un livre"
+        }
+      ],
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      }
+    },
+    {
+      "id": "fondation-vuillard-roussel",
+      "titre": "Fondation Vuillard Roussel",
+      "secteur": "Fondation d'art · WordPress et outils sur mesure",
+      "besoin": "Un site pour une fondation qui honore l'œuvre des peintres Édouard Vuillard et Ker-Xavier Roussel : musée, ateliers, catalogues raisonnés, conférences, certificats et expertises.",
+      "travail": "Développement d'un thème WordPress sur mesure, structuration du contenu (œuvres, pages d'artistes, vidéos), formulaires, SEO et maintenance technique. Hors du site : un rapport d'analyse des images et des œuvres, et le remplissage automatique des formulaires d'expertise et de demande.",
+      "technologies": [
+        "WordPress",
+        "Thème sur mesure",
+        "Contact Form 7",
+        "SEOPress",
+        "Rapports d'analyse",
+        "Formulaires automatisés"
+      ],
+      "resultat": "Un site riche en contenu que l'équipe de la fondation enrichit elle-même. Face aux maisons de ventes aux enchères, aux musées et aux exposants, ces outils donnent des fiches fiables et une réponse rapide aux demandes, ce qui renforce la crédibilité de la fondation.",
+      "url": "https://fondationvuillardroussel.org",
+      "url_mentions": "https://fondationvuillardroussel.org/legal-infos",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "Site maintenu et développé par Louis Rouanet – Arx Systema | www.arx-systema.fr",
+      "source_citation": "Page « Informations légales »",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "site"
+    },
+    {
+      "id": "au-paradis-ofer",
+      "titre": "Au Paradis O'Fer",
+      "secteur": "Médiation équine · Sains-lès-Fressin",
+      "besoin": "Présenter une structure de médiation équine : séances, chevaux, installations, gîte et animations, avec un moyen simple de prendre contact.",
+      "travail": "Application web et API : carrousel, fiches des chevaux, grille des séances, aide rapide qui répond aux questions fréquentes des visiteurs (bot FAQ), formulaire de contact protégé (anti-spam, validation), paiement en ligne Stripe pour le gîte, environnement de préproduction et déploiement automatisé.",
+      "technologies": [
+        "React 19",
+        "Vite",
+        "Node.js / Express",
+        "Stripe",
+        "Nginx / PM2",
+        "GitHub Actions"
+      ],
+      "resultat": "Site en ligne depuis 2025, avec une préproduction pour valider les changements avant publication.",
+      "url": "https://au-paradis-ofer.fr",
+      "url_mentions": "https://au-paradis-ofer.fr/mentions",
+      "libelle_mentions": "Mentions légales",
+      "citation_mentions": "© Depuis 2025 — Au Paradis O'Fer — Propulsé par Arx Systema",
+      "source_citation": "Pied de page du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "site"
+    },
+    {
+      "id": "chokate",
+      "titre": "Chokaté",
+      "secteur": "Torréfacteur · boutique WooCommerce",
+      "besoin": "Une boutique en ligne de cafés, thés et chocolats restée sans développeur après le départ en retraite du précédent.",
+      "travail": "Reprise en urgence de la maintenance et de la bonne marche du site, puis abonnements café, promotions, points fidélité et automatisations de courriels avec Brevo.",
+      "technologies": [
+        "WordPress",
+        "WooCommerce",
+        "Elementor",
+        "Brevo"
+      ],
+      "resultat": "Boutique suivie depuis 2021 ; avis client 5 étoiles en décembre 2023.",
+      "url": "https://www.chokate.com",
+      "url_mentions": "https://www.chokate.com",
+      "libelle_mentions": "Boutique Chokaté",
+      "citation_mentions": "Il avait repris en urgence la suite d'un développeur parti en retraite, assurant la maintenance, l'entretien et la bonne marche du site, non sans célérité.",
+      "source_citation": "Avis client d'Aurélia W. (décembre 2023)",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "site"
+    },
+    {
       "id": "lelly-mosaique",
       "titre": "Lelly Mosaïque",
       "secteur": "Site vitrine d'artiste",
@@ -21,72 +129,51 @@
       "captures": {
         "bureau": null,
         "mobile": null
+      },
+      "type": "site"
+    },
+    {
+      "id": "franzforge",
+      "type": "outil",
+      "titre": "FranzForge",
+      "secteur": "Outil de recherche en ligne · IA",
+      "besoin": "Des recherches et études en ligne éparpillées entre moteurs de recherche, traducteurs et outils de retranscription.",
+      "travail": "Une application web unique : requêtes multi-sources, filtres par format et par période, outils image, traduction, retranscription audio et vidéo, dans une interface sobre.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "API d'IA",
+        "Vercel"
+      ],
+      "resultat": "Un outil de travail que son utilisateur emploie chaque jour et dont il garde la maîtrise.",
+      "url": "https://query-forge-ivory.vercel.app",
+      "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
+      "libelle_mentions": "Avis Google",
+      "citation_mentions": "Un outil que j'utilise désormais au quotidien. […] Arx Systema a livré quelque chose de vraiment utile - pas un gadget, un vrai outil de travail !",
+      "source_citation": "Avis Google de Julien S. (avril 2026)",
+      "captures": {
+        "bureau": null,
+        "mobile": null
       }
     },
     {
-      "id": "au-paradis-ofer",
-      "titre": "Au Paradis O'Fer",
-      "secteur": "Médiation équine · Sains-lès-Fressin",
-      "besoin": "Présenter une structure de médiation équine : séances, chevaux, installations, gîte et animations, avec un moyen simple de prendre contact.",
-      "travail": "Application web et API : carrousel, fiches des chevaux, grille des séances, formulaire de contact protégé (anti-spam, validation), paiement en ligne Stripe pour le gîte, environnement de préproduction et déploiement automatisé.",
+      "id": "demo-ferme-bio",
+      "type": "demo",
+      "titre": "Ferme bio",
+      "secteur": "Démonstration · viande bio en vente directe",
+      "besoin": "Montrer à un éleveur ce que peut être sa boutique en ligne de vente directe (cas imaginé, sans client).",
+      "travail": "Maquette de boutique : produits et colis, offre du moment, livraison à domicile, inscription aux actualités de la ferme, sur mobile comme sur ordinateur.",
       "technologies": [
-        "React 19",
+        "React",
         "Vite",
-        "Node.js / Express",
-        "Stripe",
-        "Nginx / PM2",
-        "GitHub Actions"
+        "Vercel"
       ],
-      "resultat": "Site en ligne depuis 2025, avec une préproduction pour valider les changements avant publication.",
-      "url": "https://au-paradis-ofer.fr",
-      "url_mentions": "https://au-paradis-ofer.fr/mentions",
-      "libelle_mentions": "Mentions légales",
-      "citation_mentions": "© Depuis 2025 — Au Paradis O'Fer — Propulsé par Arx Systema",
-      "source_citation": "Pied de page du site",
-      "captures": {
-        "bureau": null,
-        "mobile": null
-      }
-    },
-    {
-      "id": "fondation-vuillard-roussel",
-      "titre": "Fondation Vuillard Roussel",
-      "secteur": "Fondation d'art · WordPress",
-      "besoin": "Un site pour une fondation qui honore l'œuvre des peintres Édouard Vuillard et Ker-Xavier Roussel : musée, ateliers, catalogues raisonnés, conférences, certificats et expertises.",
-      "travail": "Développement d'un thème WordPress sur mesure, structuration du contenu (œuvres, pages d'artistes, vidéos), formulaires, SEO et maintenance technique.",
-      "technologies": [
-        "WordPress",
-        "Thème sur mesure",
-        "Contact Form 7",
-        "SEOPress"
-      ],
-      "resultat": "Un site riche en contenu (œuvres, pages d'artistes, vidéos) que l'équipe de la fondation peut enrichir elle-même.",
-      "url": "https://fondationvuillardroussel.org",
-      "url_mentions": "https://fondationvuillardroussel.org/legal-infos",
-      "libelle_mentions": "Mentions légales",
-      "citation_mentions": "Site maintenu et développé par Louis Rouanet – Arx Systema | www.arx-systema.fr",
-      "source_citation": "Page « Informations légales »",
-      "captures": {
-        "bureau": null,
-        "mobile": null
-      }
-    },
-    {
-      "id": "ideopulse",
-      "titre": "IdeoPulse",
-      "secteur": "Vidéaste · WordPress",
-      "besoin": "Présenter les prestations d'un vidéaste (captation en studio ou sur événement, prise de vue aérienne par drone, post-production) et faciliter la prise de contact.",
-      "travail": "Conception technique du site, mise en place des pages Accueil, Prestations et Contact, gestion du consentement aux cookies et rédaction de la politique de confidentialité.",
-      "technologies": [
-        "WordPress",
-        "Thème Astra"
-      ],
-      "resultat": "Un site simple et lisible, en ligne, qui présente les trois métiers de l'activité et mène vers un contact direct.",
-      "url": "https://ideopulse.fr",
-      "url_mentions": "https://ideopulse.fr/privacy-policy/",
-      "libelle_mentions": "Politique de confidentialité",
-      "citation_mentions": "Éditeur du site et conception technique — Nom et prénoms : Louis Rouanet",
-      "source_citation": "Politique de confidentialité",
+      "resultat": "Une démonstration à parcourir, qui sert de base de discussion pour un projet de vente directe.",
+      "url": "https://ferme-boucherie-bio.vercel.app",
+      "url_mentions": "https://ferme-boucherie-bio.vercel.app",
+      "libelle_mentions": "Démonstration en ligne",
+      "citation_mentions": "",
+      "source_citation": "",
       "captures": {
         "bureau": null,
         "mobile": null
@@ -112,14 +199,37 @@
       "captures": {
         "bureau": null,
         "mobile": null
-      }
+      },
+      "type": "site"
+    },
+    {
+      "id": "ideopulse",
+      "titre": "IdeoPulse",
+      "secteur": "Vidéaste · WordPress",
+      "besoin": "Présenter les prestations d'un vidéaste (captation en studio ou sur événement, prise de vue aérienne par drone, post-production) et faciliter la prise de contact.",
+      "travail": "Conception technique du site, mise en place des pages Accueil, Prestations et Contact, gestion du consentement aux cookies et rédaction de la politique de confidentialité.",
+      "technologies": [
+        "WordPress",
+        "Thème Astra"
+      ],
+      "resultat": "Un site simple et lisible, en ligne, qui présente les trois métiers de l'activité et mène vers un contact direct.",
+      "url": "https://ideopulse.fr",
+      "url_mentions": "https://ideopulse.fr/privacy-policy/",
+      "libelle_mentions": "Politique de confidentialité",
+      "citation_mentions": "Éditeur du site et conception technique — Nom et prénoms : Louis Rouanet",
+      "source_citation": "Politique de confidentialité",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "site"
     },
     {
       "id": "arx-systema",
       "titre": "arx-systema.fr",
       "secteur": "Mon propre site",
-      "besoin": "Présenter mon activité de création et de refonte de sites dans les Yvelines, avec une offre claire (livraison en 7 jours dès 1 200 €) et un référencement local solide.",
-      "travail": "Site conçu de bout en bout : pages rendues côté serveur, JavaScript sans framework, multilingue, formulaire de contact et newsletter via Brevo, blog, déploiement continu sur VPS.",
+      "besoin": "Présenter mon activité de création et de refonte de sites dans les Yvelines, avec une offre claire et un référencement local solide.",
+      "travail": "Site conçu de bout en bout : pages rendues côté serveur, JavaScript sans framework, multilingue, aide rapide qui répond aux questions des visiteurs (bot FAQ), formulaire de contact et newsletter via Brevo, blog, déploiement continu sur VPS.",
       "technologies": [
         "Node.js",
         "Express 5",
@@ -137,7 +247,8 @@
       "captures": {
         "bureau": null,
         "mobile": null
-      }
+      },
+      "type": "site"
     }
   ]
 }
