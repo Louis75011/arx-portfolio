@@ -30,7 +30,12 @@
       "captures": {
         "bureau": null,
         "mobile": null
-      }
+      },
+      "vues": [
+        "livre",
+        "catalogue",
+        "bulletin"
+      ]
     },
     {
       "id": "fondation-vuillard-roussel",
@@ -56,7 +61,12 @@
         "bureau": null,
         "mobile": null
       },
-      "type": "site"
+      "type": "site",
+      "vues": [
+        "artistes",
+        "oeuvres",
+        "expertise"
+      ]
     },
     {
       "id": "au-paradis-ofer",
@@ -82,7 +92,13 @@
         "bureau": null,
         "mobile": null
       },
-      "type": "site"
+      "type": "site",
+      "vues": [
+        "chevaux",
+        "installations",
+        "gites",
+        "seances"
+      ]
     },
     {
       "id": "premium-pressing",
@@ -142,6 +158,35 @@
       ]
     },
     {
+      "id": "lelly-mosaique",
+      "titre": "Lelly Mosaïque",
+      "secteur": "Site vitrine d'artiste",
+      "besoin": "Donner une vitrine en ligne à Nelly Charamnac, mosaïste depuis 1980 : présenter l'artiste, ses créations et restaurations, et recevoir les demandes de contact.",
+      "travail": "Conception et développement complets : galerie interactive, présentation de l'artiste, page d'avis, formulaire de contact relié à Brevo, espace d'administration protégé, bannière de cookies et pages RGPD.",
+      "technologies": [
+        "Next.js 14",
+        "React 18",
+        "SCSS Modules",
+        "Brevo"
+      ],
+      "resultat": "Site en ligne depuis 2025, administrable, avec cadre légal en place (confidentialité, cookies, RGPD).",
+      "url": "https://lelly-mosaique.fr",
+      "url_mentions": "https://lelly-mosaique.fr/legal/confidentialite",
+      "libelle_mentions": "Pages légales",
+      "citation_mentions": "© Propulsé en 2025 - France - Site réalisé par M. Rouanet pour Arx Systema",
+      "source_citation": "Pied de page du site",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "site",
+      "vues": [
+        "galerie",
+        "oeuvres",
+        "artiste"
+      ]
+    },
+    {
       "id": "ecosysteme-arx",
       "type": "systeme",
       "titre": "Écosystème Arx",
@@ -165,30 +210,6 @@
         "bureau": null,
         "mobile": null
       }
-    },
-    {
-      "id": "lelly-mosaique",
-      "titre": "Lelly Mosaïque",
-      "secteur": "Site vitrine d'artiste",
-      "besoin": "Donner une vitrine en ligne à Nelly Charamnac, mosaïste depuis 1980 : présenter l'artiste, ses créations et restaurations, et recevoir les demandes de contact.",
-      "travail": "Conception et développement complets : galerie interactive, présentation de l'artiste, page d'avis, formulaire de contact relié à Brevo, espace d'administration protégé, bannière de cookies et pages RGPD.",
-      "technologies": [
-        "Next.js 14",
-        "React 18",
-        "SCSS Modules",
-        "Brevo"
-      ],
-      "resultat": "Site en ligne depuis 2025, administrable, avec cadre légal en place (confidentialité, cookies, RGPD).",
-      "url": "https://lelly-mosaique.fr",
-      "url_mentions": "https://lelly-mosaique.fr/legal/confidentialite",
-      "libelle_mentions": "Pages légales",
-      "citation_mentions": "© Propulsé en 2025 - France - Site réalisé par M. Rouanet pour Arx Systema",
-      "source_citation": "Pied de page du site",
-      "captures": {
-        "bureau": null,
-        "mobile": null
-      },
-      "type": "site"
     },
     {
       "id": "franzforge",
