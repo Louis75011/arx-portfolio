@@ -185,7 +185,7 @@
       "id": "maxime-couvreur-paysagiste",
       "type": "site",
       "titre": "Maxime J.",
-      "secteur": "Couvreur et paysagiste · site vitrine",
+      "secteur": "Couvreur, paysagiste et ravalement de façade · site vitrine",
       "besoin": "Un couvreur et paysagiste qui cherchait de l’aide pour faire le site web de son activité.",
       "travail": "Un site pensé pour que ses clients le trouvent et le contactent facilement, adapté à son métier : une première version, puis la version actuelle.",
       "technologies": [
@@ -196,9 +196,15 @@
       "resultat": "Un site qui inspire confiance et qui est adapté à son métier, selon son avis Google.",
       "url": "https://couverture-paysagisme-vendee.vercel.app",
       "url_mentions": "https://share.google/77raaFo63AKdnG8vW",
-      "libelle_mentions": "Avis Google",
-      "citation_mentions": "Ce que j’ai aimé, c’est l’écoute. […] Le résultat est à la hauteur : un site qui inspire confiance et qui est adapté à mon métier.",
-      "source_citation": "Avis Google de Maxime J. (mai 2026)",
+      "libelle_mentions": "Lire les avis Google",
+      "citation_mentions": "Ce que j’ai aimé, c’est l’écoute. Mes attentes ont été comprises dès le départ […] Le résultat est à la hauteur : un site qui inspire confiance et qui est adapté à mon métier.",
+      "source_citation": "Maxime, artisan couvreur · avis Google 5 étoiles",
+      "portrait": {
+        "fichier": "maxime-josset-portrait",
+        "alt": "Maxime Josset, couvreur, au travail sur une toiture",
+        "largeur": 600,
+        "hauteur": 820
+      },
       "pages": [
         {
           "cle": "v1",
