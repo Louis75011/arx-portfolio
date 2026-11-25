@@ -85,6 +85,34 @@
       "type": "site"
     },
     {
+      "id": "premium-pressing",
+      "titre": "Premium Pressing",
+      "secteur": "Pressing et laverie · Voisins-le-Bretonneux",
+      "besoin": "Un pressing de quartier qui avait déjà un site, une fiche Google, une page Facebook et des annonces Google Ads, mais sans personne pour tenir l'ensemble ni de chiffres lisibles.",
+      "travail": "Fiche Google optimisée et animée, une réponse à chaque avis, site et page Facebook alignés sur la fiche, annonces Google Ads resserrées à 15 km et suivi des conversions corrigé : itinéraires, appels et formulaires comptés à part.",
+      "technologies": [
+        "Fiche Google",
+        "Google Ads",
+        "Weebly",
+        "Facebook"
+      ],
+      "resultat": "Note de 4,7 sur 5 sur Google ; sur 30 jours à la mi-octobre 2026, 182 demandes d'itinéraire et 9 appels venus des annonces.",
+      "url": "https://www.premiumpressing.fr",
+      "url_mentions": "https://arx-systema.fr/blog/etude-de-cas-premium-pressing-voisins-le-bretonneux",
+      "libelle_mentions": "Lire l'étude de cas",
+      "captures": {
+        "bureau": null,
+        "mobile": null
+      },
+      "type": "visibilite",
+      "vues": [
+        "devanture",
+        "laverie",
+        "salle",
+        "tapis"
+      ]
+    },
+    {
       "id": "chokate",
       "titre": "Chokaté",
       "secteur": "Torréfacteur · boutique WooCommerce",
@@ -106,7 +134,12 @@
         "bureau": null,
         "mobile": null
       },
-      "type": "site"
+      "type": "site",
+      "vues": [
+        "chocolats",
+        "cafe",
+        "fidelite"
+      ]
     },
     {
       "id": "ecosysteme-arx",
